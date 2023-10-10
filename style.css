@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: hsla(29, 63%, 92%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sheet{
+    width: 35%;
+    height: 62vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sheet .total_balance{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background: hsl(10, 79%, 65%);
+    border-radius: 10px;
+    color: hsl(27, 66%, 92%);
+}
+
+.sheet .total_balance .all_balance p{
+    font-size: 14px;
+}
+
+.sheet .total_balance .logo{
+    width: 50px;
+}
+
+.sheet .total_balance .logo img{
+    width: 100%;
+}
+
+.sheet .balance_graphics{
+    width: 100%;
+    height: 50vh;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sheet .balance_graphics h3{
+    font-size: 18px;
+}
+
+.sheet .balance_graphics .graphs{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.sheet .balance_graphics .graphs div{
+    display: flex;
+    flex-direction: column-reverse;
+
+    align-items: center;
+}
+
+.sheet .balance_graphics .graphs div p{
+    color: rgb(165, 165, 165);
+}
+
+.sheet .balance_graphics .graphs .monday{
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    background: hsl(10, 79%, 65%);
+}
+
+.sheet .balance_graphics .graphs .tuesday{
+    width: 35px;
+    height: 70px;
+    border-radius: 3px;
+    background: hsl(10, 79%, 65%);
+}
+
+.sheet .balance_graphics .graphs .wednesday{
+    width: 35px;
+    height: 103px;
+    border-radius: 3px;
+    background: hsl(186, 34%, 60%);
+}
+
+.sheet .balance_graphics .graphs .thursday{
+    width: 35px;
+    height: 62px;
+    border-radius: 3px;
+    background: hsl(10, 79%, 65%);
+}
+
+.sheet .balance_graphics .graphs .friday{
+    width: 35px;
+    height: 47px;
+    border-radius: 3px;
+    background: hsl(10, 79%, 65%);
+}
+
+.sheet .balance_graphics .graphs .saturday{
+    width: 35px;
+    height: 87px;
+    border-radius: 3px;
+    background: hsl(10, 79%, 65%);
+}
+
+.sheet .balance_graphics .graphs .sunday{
+    width: 35px;
+    height: 51px;
+    border-radius: 3px;
+    background: hsl(10, 79%, 65%);
+}
+
+.sheet .balance_graphics .info_graph{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sheet .balance_graphics .info_graph .monthly p{
+    color: rgb(165, 165, 165);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.sheet .balance_graphics .info_graph .monthly{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sheet .balance_graphics .info_graph .monthly_percent h3, p{
+    text-align: right;
+    font-size: 14px;
+}
+
+.sheet .balance_graphics .info_graph .monthly_percent p{
+    color: rgb(165, 165, 165);
+}
+
+@media only screen and (max-width:930px){
+
+    .sheet{
+        width: 45%;
+    }
+
+}
+
+@media only screen and (max-width:930px){
+
+    .sheet{
+        width: 65%;
+    }
+
+}
+
+@media only screen and (max-width:930px){
+
+    .sheet{
+        width: 85%;
+    }
+
+}
+
+@media only screen and (max-width:930px){
+
+    .sheet{
+        width: 95%;
+    }
+
+}
