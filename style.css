@@ -168,12 +168,12 @@
 @media only screen and (max-width:930px){
 
     .sheet{
-        width: 65%;
+        width: 55%;
     }
 
 }
 
-@media only screen and (max-width:930px){
+@media only screen and (max-width:570px){
 
     .sheet{
         width: 85%;
@@ -181,7 +181,7 @@
 
 }
 
-@media only screen and (max-width:930px){
+@media only screen and (max-width:530px){
 
     .sheet{
         width: 95%;
